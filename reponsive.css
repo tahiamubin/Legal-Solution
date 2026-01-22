@@ -1,0 +1,73 @@
+@media screen and (max-width:576px) {
+    * {
+    max-width: 550px;
+    margin: 0 auto;
+}
+    .menu,
+    nav .btn {
+        display: none;
+    }
+
+    nav {
+        max-width: 500px;
+    }
+
+    .head-content h1 {
+        font-size: 2rem;
+        margin: 10px;
+    }
+
+    .head-content p,
+    .client-img p {
+        font-size: 0.8rem;
+        padding: 2px;
+    }
+
+
+    .search-container input {
+        width: 400px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .search-container {
+        position: absolute;
+        top: 88%;
+        left: 30%;
+        transform: translate(-18%, 30%);
+    }
+
+    .btn {
+        width: 220px;
+        height: 50px;
+        margin-top: 6px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carts-ques {
+        flex-direction: column;
+    }
+
+    .legal-cart {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .quetion-cart {
+        width: 500px;
+
+    }
+
+    .card-img,
+    .logo-img {
+         max-width: 600px;
+
+        width: 100%;
+    }
+
+
+}
