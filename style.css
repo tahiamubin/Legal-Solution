@@ -276,7 +276,7 @@ header {
     font-weight: 600;
 }
 
-.contarct-card {
+.contarct-card  {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 570px;
@@ -313,14 +313,16 @@ header {
 /* footer */
 
 footer {
-    width: 1920px;
+    width: 1800px;
     background-color: #111111;
+    margin-top: 120px;
 }
 .footer-content{
     display: flex;
     max-width: 1170px;
     align-items: center;
     justify-content: center;
+    
 }
 .footer{
     margin-top: 120px;
