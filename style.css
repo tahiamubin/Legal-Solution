@@ -1,6 +1,6 @@
 /* shared */
 * {
-    max-width: 1170px;
+    /* max-width: 1170px; */
     margin: 0 auto;
 }
 
@@ -280,9 +280,10 @@ header {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     max-width: 570px;
-    
+
 }
-.card{
+
+.card {
     border: 1px solid #B68C5A;
     border-radius: 6px;
 
@@ -290,4 +291,74 @@ header {
 
 .contract {
     margin: 120px;
+}
+
+.form input,
+.form textarea {
+    width: 570px;
+    height: 72px;
+    border-radius: 8px;
+    background-color: #F3F3F3;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.contract-box {
+    display: flex;
+    margin-left: 60px;
+}
+
+/* footer */
+
+footer {
+    width: 1920px;
+    background-color: #111111;
+}
+.footer-content{
+    display: flex;
+    max-width: 1170px;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    margin-top: 120px;
+}
+
+.footer-logo p {
+     width: 260px;
+    color: white;
+    font-size: 16px;
+    /* padding: 120px; */
+    font-weight: 300;
+}
+.footer-heading{
+    display: flex;
+    width: 1170px;
+    padding: 120px;
+    gap: 81px;
+}
+
+.footer-content h1 {
+    font-size: 32px;
+    color: white;
+    font-weight: 800;
+}
+.contract {
+    margin: 0px;
+}
+
+.useful ul,
+.contract  li, .subscribe {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    font-weight: 200;
+}
+..useful h1,
+.contract  h1, .subscribe h1 {
+    font-size: 32px;
+    font-weight: 700;
+    gap: 80px;
 }

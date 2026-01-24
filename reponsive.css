@@ -1,8 +1,9 @@
 @media screen and (max-width:576px) {
     * {
-    max-width: 550px;
-    margin: 0 auto;
-}
+        max-width: 550px;
+        margin: 0 auto;
+    }
+
     .menu,
     nav .btn {
         display: none;
@@ -10,6 +11,9 @@
 
     nav {
         max-width: 500px;
+    }
+    header{
+        margin-bottom: 100px;
     }
 
     .head-content h1 {
@@ -64,10 +68,46 @@
 
     .card-img,
     .logo-img {
-         max-width: 600px;
+        max-width: 600px;
 
         width: 100%;
     }
+
+    .contract,
+    .contract-box {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0px;
+    }
+
+    .contract {
+        margin: 0px;
+    }
+
+    .carts-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+        width: 250px;
+        height: 250px;
+    }
+
+    .form input,
+    .form textarea {
+        width: 560px;
+    }
+    footer{
+        margin-top: 120px;
+    }
+
+    .footer-heading {
+        display: flex;
+        flex-direction: column;
+        width: 520px;
+    }
+
 
 
 }
